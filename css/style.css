@@ -540,5 +540,9 @@ timeline__slide .img1{
   .timeline__slides .timeline__slide-content img {
     padding-right: 0px;
     width: 100%;
-}
+  }
+
+  .timeline__slides{
+    height: 800px;
+  }
 }
