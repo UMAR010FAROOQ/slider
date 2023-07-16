@@ -381,7 +381,7 @@ body {
 
 @media (max-width: 530px) {
   .timeline__slides .timeline__slide-content img{
-    width: 100% !important;
+    width: 100%;
   }
 }
 
@@ -464,11 +464,11 @@ timeline__slide .img1{
     letter-spacing: 0;
   }
   .timeline__slide-content img{
-    width: 100%;
+    width: 120%;
   }
 
   .timeline__slides{
-    height: 450px;
+    height: 430px;
   }
 
   .timeline {
@@ -492,7 +492,7 @@ timeline__slide .img1{
   .timeline__slides {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .img_bg,
@@ -508,11 +508,11 @@ timeline__slide .img1{
   }
 
   .timeline_content {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .para {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .para .text {
@@ -531,7 +531,7 @@ timeline__slide .img1{
 
   .timeline__slides .timeline__slide-content img {
     padding-right: 0px;
-    width: 100%;
+    width: 120% !important;
 }
 }
 
@@ -541,8 +541,10 @@ timeline__slide .img1{
     padding-right: 0px;
     width: 100%;
   }
+}
 
-  .timeline__slides{
+@media (width: 1024px) {
+  .timeline__slides {
     height: 800px;
   }
 }
