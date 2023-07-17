@@ -372,11 +372,11 @@ body {
 .para a{
   font-size: 15px;
   font-family: 'Plus Jakarta Sans';
-  color: #8181ac;
+  color: #0f6fde;
   text-decoration: none;
 }
 .para a:hover{
-  color:#161672; 
+  color:#10253d; 
 }
 
 @media (max-width: 530px) {
