@@ -52,7 +52,7 @@ body {
 
 /* TIMELINE STYLES: YOU NEED THEM!!! */
 .timeline {
-  --wrapper-width: 1000px;
+/*  --wrapper-width: 1000px;*/
 
   width: 90%;
   max-width: var(--wrapper-width);
