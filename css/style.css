@@ -576,6 +576,12 @@ timeline__slide .img1{
   }
 }
 
+@media (min-width: 1024px) {
+  .para{
+    height: 100px;
+  }
+}
+
 @media (width: 1024px) {
   .timeline__slides {
     height: 800px;
